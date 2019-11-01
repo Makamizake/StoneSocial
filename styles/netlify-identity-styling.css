@@ -1,4 +1,4 @@
-   [data-netlify-identity-button] a {
+[data-netlify-identity-button] a {
 		  display: block;
 		  position: relative;
 		  width: 100%;
@@ -19,8 +19,4 @@
 		  text-align: center;
 		  text-decoration: none;
 		  white-space: nowrap;
-		}
-
-    h1 {
-      font-family: cursive;
     }
