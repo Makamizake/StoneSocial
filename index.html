@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css"  href="/styles/netlify-identity-styling.css">
   <script src="/accounts/netlify-identity-widget.js"></script>
   <title>StoneSocial</title>
   <script>
@@ -9,8 +10,8 @@
   netlifyIdentity.on("login", user => console.log(user));
   netlifyIdentity.on("logout", () => console.log("Logged out"));
   netlifyIdentity.on("error", err => console.error("Logged out"));
-  netlifyIdentity.on("open", () => console.log("Widget opened"));
-  netlifyIdentity.on("close", () => console.log("Widget closed"));</script>
+  netlifyIdentity.on("open", () => console.log("LogIn widget opened"));
+  netlifyIdentity.on("close", () => console.log("LogIn widget closed"));</script>
 </head>
 <body>
   <div data-netlify-identity-button></div>
