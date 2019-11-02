@@ -1,18 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="/styles/netlify-identity-styling.css">
-  <link rel="stylesheet" type="text/css" href="/styles/default-stylesheet-v1.css"
+  <link rel="stylesheet" type="text/css" href="/styles/default-stylesheet-v1.css">
   <script src="/accounts/netlify-identity-widget.js"></script>
+  <script src="/accounts/netlify-identity-console.js"></script>
   <title>StoneSocial</title>
-  <script>
-  netlifyIdentity.on("init", user => console.log(user));
-  netlifyIdentity.on("login", user => console.log(user));
-  netlifyIdentity.on("logout", () => console.log("Logged out"));
-  netlifyIdentity.on("error", err => console.error("Logged out"));
-  netlifyIdentity.on("open", () => console.log("LogIn widget opened"));
-  netlifyIdentity.on("close", () => console.log("LogIn widget closed"));</script>
 </head>
 <body>
   <div data-netlify-identity-button></div>
